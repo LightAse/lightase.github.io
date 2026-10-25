@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="#0b1020" name="theme-color"/>
+<meta content="Portfolio de Ian Fridman (LightAse): software, herramientas, ingeniería de datos y proyectos experimentales de código abierto." name="description"/>
+<title>Ian Fridman · LightAse — Software &amp; Projects</title>
+<link href="assets/style.css" rel="stylesheet"/>
+</head>
+<body>
+<header><a aria-label="Inicio" class="brand" href="./"><span class="brand-icon">IF</span> Ian Fridman <span style="font:11px 'Space Mono',monospace;color:#8190af;font-weight:400">/ LightAse</span></a>
+<nav aria-label="Navegación principal" class="nav"><a href="#proyectos">Proyectos</a><a href="#archivo">Archivo</a><a href="#acerca">Acerca</a><a class="nav-cta" href="https://github.com/LightAse" rel="noopener noreferrer" target="_blank">GitHub ↗</a></nav></header>
+<main>
+<section aria-labelledby="hero-title" class="hero">
+<div><div class="eyebrow"><span class="pulse"></span> Software · Experimentos · Código abierto</div>
+<h1 id="hero-title">Ideas que se convierten en <em>software.</em></h1>
+<p class="lede">Soy Ian, estudiante de Ingeniería en Informática en Argentina. Trabajo en herramientas que conectan sistemas, proyectos de datos y experimentos de software. Acá comparto lo que tengo publicado.</p>
+<div class="hero-actions"><a class="btn btn-primary" href="#proyectos">Explorar proyectos <span class="glyph">↘</span></a><a class="btn" href="https://github.com/LightAse" rel="noopener noreferrer" target="_blank">Ver perfil de GitHub <span class="glyph">↗</span></a></div></div>
+<div aria-label="Resumen de áreas de trabajo" class="terminal">
+<div class="terminal-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+<div class="terminal-body"><div><span class="dim">// </span><span class="purple">LightAse</span><span class="dim"> / portfolio</span></div>
+<div><span class="hi">const</span> developer = {</div><div class="indent">name: <span class="hi">"Ian Fridman"</span>,</div>
+<div class="indent">focus: [</div><div class="indent">  <span class="hi">"Software"</span>,</div><div class="indent">  <span class="hi">"Data"</span>,</div><div class="indent">  <span class="hi">"Systems"</span>,</div><div class="indent">],</div>
+<div class="indent">publicRepos: <span class="purple">6</span></div><div>};</div><div style="margin-top:13px"><span class="hi">$</span> open github.com/LightAse<span class="hi">_</span></div>
+</div></div>
+</section>
+<section aria-labelledby="projects-title" class="section" id="proyectos"><div class="section-head"><div><span class="section-kicker">01 / Trabajo destacado</span><h2 id="projects-title">Proyectos seleccionados</h2></div><p class="section-intro">Una selección basada en repositorios públicos y su documentación. Los prototipos y proyectos en desarrollo están identificados como tales.</p></div>
+<div aria-label="Filtrar proyectos" class="filterbar" role="group"><button aria-pressed="true" class="filter" data-filter="all" type="button">Todos</button><button aria-pressed="false" class="filter" data-filter="systems" type="button">Sistemas</button><button aria-pressed="false" class="filter" data-filter="data" type="button">Datos</button><button aria-pressed="false" class="filter" data-filter="tools" type="button">Herramientas</button></div>
+<div class="cards">
+<article class="project" data-category="systems" style="--orb:#86a4ff2d"><div class="project-top"><span class="project-index">PROJECT / 001</span><span class="status">Investigación · WIP</span></div><h3>PsOldRemotePlay</h3><p>Cliente experimental para conectar dispositivos Android y de escritorio con una PS3. Investigación del protocolo PREMO, descubrimiento UDP y sesiones cifradas; el registro de dispositivos sigue pendiente.</p><div class="project-bottom"><div class="tags"><span class="tag">Kotlin</span><span class="tag">Multiplatform</span><span class="tag">Reverse Engineering</span></div><a aria-label="Ver PsOldRemotePlay en GitHub" class="project-link" href="https://github.com/LightAse/PsOldRemotePlay" rel="noopener noreferrer" target="_blank">Código ↗</a></div></article>
+<article class="project" data-category="tools" style="--orb:#83f0cf25"><div class="project-top"><span class="project-index">PROJECT / 002</span><span class="status">Integración</span></div><h3>Ghostfolio × IOL</h3><p>Sincronización unidireccional de posiciones desde InvertirOnline hacia Ghostfolio. Consultas de solo lectura al bróker, actualización idempotente, manejo de errores y ejecución programada.</p><div class="project-bottom"><div class="tags"><span class="tag">Python</span><span class="tag">APIs</span><span class="tag">Finanzas</span></div><a aria-label="Ver ghostfolio-iol-sync en GitHub" class="project-link" href="https://github.com/LightAse/ghostfolio-iol-sync" rel="noopener noreferrer" target="_blank">Código ↗</a></div></article>
+<article class="project" data-category="tools" style="--orb:#d6b5ff26"><div class="project-top"><span class="project-index">PROJECT / 003</span><span class="status">En desarrollo</span></div><h3>Job Assist</h3><p>Aplicación web para capturar ofertas laborales, organizar postulaciones y preparar CV personalizados. API con FastAPI, base SQLite, interfaz web y extensión de navegador.</p><div class="project-bottom"><div class="tags"><span class="tag">FastAPI</span><span class="tag">SQLite</span><span class="tag">Browser Extension</span></div><a aria-label="Ver Job Assist en GitHub" class="project-link" href="https://github.com/LightAse/job-assist" rel="noopener noreferrer" target="_blank">Código ↗</a></div></article>
+<article class="project" data-category="data" style="--orb:#ffb89325"><div class="project-top"><span class="project-index">PROJECT / 004</span><span class="status">Datos · BI</span></div><h3>Olist Data Warehouse</h3><p>Modelo dimensional para analizar e-commerce: pipeline ETL, esquema estrella en PostgreSQL y visualización de ventas y logística con Metabase, a partir del dataset público Olist.</p><div class="project-bottom"><div class="tags"><span class="tag">PostgreSQL</span><span class="tag">Python · ETL</span><span class="tag">Metabase</span></div><a aria-label="Ver Olist Data Warehouse en GitHub" class="project-link" href="https://github.com/LightAse/olist-data-warehouse" rel="noopener noreferrer" target="_blank">Código ↗</a></div></article>
+</div></section>
+<section class="section" id="archivo"><div class="section-head"><div><span class="section-kicker">02 / Archivo público</span><h2>Otros proyectos y prácticas</h2></div><p class="section-intro">Exploraciones anteriores, prototipos y ejercicios técnicos. Todos enlazan a repositorios públicos.</p></div>
+<div class="archive"><a class="archive-row" href="https://github.com/LightAse/Ultra-Super-Snake" rel="noopener noreferrer" target="_blank"><div><h3>Ultra-Super-Snake</h3><p>Juego Snake para navegador con backend en Express y MongoDB.</p></div><span class="arrow">↗</span></a>
+<a class="archive-row" href="https://github.com/LightAse/homebanking" rel="noopener noreferrer" target="_blank"><div><h3>homebanking</h3><p>Práctica de aplicación bancaria en Java con interfaz gráfica.</p></div><span class="arrow">↗</span></a>
+</div>
+</section>
+<section class="section" id="acerca"><div class="section-head"><div><span class="section-kicker">03 / Más información</span><h2>Sobre este espacio</h2></div></div><div class="callout callout--solo"><div><h3>Proyectos, ideas y aprendizaje continuo.</h3><p>Acá comparto una selección de proyectos públicos, desde herramientas que resuelven problemas concretos hasta experimentos de ingeniería de software. Podés explorar sus implementaciones, documentación y evolución directamente en <a href="https://github.com/LightAse" rel="noopener noreferrer" target="_blank">mi GitHub</a>.</p></div></div></section>
+</main>
+<footer><span>© 2026 Ian Fridman · LightAse</span><div class="footer-links"><a href="https://github.com/LightAse" rel="noopener noreferrer" target="_blank">GitHub</a><a href="#acerca">Acerca</a></div></footer>
+<script>
+const controls=[...document.querySelectorAll('button[data-filter]')];const cards=[...document.querySelectorAll('.project[data-category]')];controls.forEach(button=>button.addEventListener('click',()=>{const filter=button.dataset.filter;controls.forEach(b=>b.setAttribute('aria-pressed',String(b===button)));cards.forEach(card=>{card.dataset.hidden=String(filter!=='all'&&card.dataset.category!==filter)});}));
+</script>
+</body></html>
